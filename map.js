@@ -17,4 +17,3 @@ else
     console.log('no');
 
 marks.clear();
-
