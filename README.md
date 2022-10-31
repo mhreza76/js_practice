@@ -50,7 +50,7 @@ Create a **.eslintrc.json** file in the project root and enter the below content
     "unicorn/number-literal-case": "off",
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
-    "endOfLine": "auto",
+    "no-var": "off",
     "prettier/prettier": [
       "error",
       {
@@ -58,7 +58,8 @@ Create a **.eslintrc.json** file in the project root and enter the below content
         "singleQuote": true,
         "printWidth": 100,
         "tabWidth": 4,
-        "semi": true
+        "semi": true,
+        "endOfLine": "auto"
       }
     ]
   },

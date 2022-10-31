@@ -14,7 +14,6 @@
     "unicorn/number-literal-case": "off",
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
-    "endOfLine": "auto",
     "no-var": "off",
     "prettier/prettier": [
       "error",
@@ -23,7 +22,8 @@
         "singleQuote": true,
         "printWidth": 100,
         "tabWidth": 4,
-        "semi": true
+        "semi": true,
+        "endOfLine": "auto"
       }
     ]
   },

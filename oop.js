@@ -8,7 +8,7 @@ class parent {
     }
 }
 
-class child extends parent {
+class Child extends parent {
     hello1() {
         console.log('hello1 from child');
     }
@@ -18,6 +18,6 @@ class child extends parent {
     }
 }
 
-const childObj = new child();
+const childObj = new Child();
 childObj.hello1();
 childObj.demo();
