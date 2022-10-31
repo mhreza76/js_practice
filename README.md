@@ -49,7 +49,7 @@ Create a **.eslintrc.json** file in the project root and enter the below content
     "linebreak-style": 0,
     "unicorn/number-literal-case": "off",
     "max-classes-per-file": "off",
-    "class-methods-use-this": "off",
+    // "class-methods-use-this": "off",
     "no-var": "off",
     "prettier/prettier": [
       "error",

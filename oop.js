@@ -1,15 +1,15 @@
-class parent {
-    hello1() {
+class Parent {
+    static hello1() {
         console.log('hello1 from parent');
     }
 
-    hello2() {
+    static hello2() {
         console.log('hello2 from parent');
     }
 }
 
-class Child extends parent {
-    hello1() {
+class Child extends Parent {
+    static hello1() {
         console.log('hello1 from child');
     }
 
